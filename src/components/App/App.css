@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins&display=swap');
+
+:root {
+  --colour-main: #9E85F9;
+  --colour-main-shade: #6649ea;
+  --colour-accent: #f9d266;
+  --colour-accent-shade: #f0ae42;
+  --font-colour-main: #000000;
+  --font-colour-alt: #ffffff;
+  --font-header: Cinzel;
+  --font-main: Poppins;
+}
+
+body {
+  background-color: var(--colour-main);
+}
+
+h1 {
+  font-family: var(--font-header);
+}
+
+.app {
+  text-align: center;
+}
+
+.reading {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+ 
